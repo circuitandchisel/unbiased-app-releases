@@ -19,12 +19,30 @@ Prefer doing it by hand? Download the `.dmg` from [Releases](https://github.com/
 
 ## First launch
 
-Paste your Unbiased API key when the app asks. If you already use the [CLI](https://github.com/circuitandchisel/unbiased-cli-releases) and have run `unbiased login`, the app finds that key and just asks you to confirm it.
+Choose **Sign in with browser** to select an existing Unbiased workload. You
+can also paste an Unbiased API key; if the
+[CLI](https://github.com/circuitandchisel/unbiased-cli-releases) has already
+saved one, the app finds it and asks you to confirm it.
 
-Need a key? Create one in the [dashboard](https://platform.unbiased.ai) — and set the workload's Pareto rollout to 100% so every request routes to Pareto.
+Need an account or workload? Start at the
+[Unbiased platform](https://platform.unbiased.ai).
 
 The Pareto engine ships inside the app; there is nothing else to install.
 
-## About this repository
+## Source
 
-This repo hosts **release builds and the installer only**; development happens in a private repository. Found a problem? Open an issue here, or reach us at [unbiased.ai](https://unbiased.ai).
+This repository hosts release builds and the installer. Development happens
+in the public source repositories:
+
+- [unbiased-app](https://github.com/circuitandchisel/unbiased-app)
+- [unbiased-app-engine](https://github.com/circuitandchisel/unbiased-app-engine)
+- [unbiased-ax](https://github.com/circuitandchisel/unbiased-ax)
+
+Found a problem? Open an issue here, or visit [unbiased.ai](https://unbiased.ai).
+
+## License
+
+Repository source is licensed under Apache-2.0. See [LICENSE](LICENSE) and
+[NOTICE](NOTICE). The Unbiased name and logo are covered separately by
+[TRADEMARKS.md](TRADEMARKS.md). Release assets include their own third-party
+notices inside the application bundle.
